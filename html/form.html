@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Successful</title>
+    <style>
+        body{
+            background-color:white ;
+            margin: 5cm;
+        }
+        .container{
+            height: 12cm;
+            width: 10cm;
+            background-color: rgba(255, 255, 255, 0.444);
+            text-align: center;
+            color: rgb(0, 0, 0);
+            margin-top: 5cm;
+            margin-left: 5cm;
+            margin-right: 5cm;
+            margin-bottom: 5cm;
+            box-shadow: 0px 0px 30px rgba(5, 5, 5, 0.308);
+            border: 200px;
+            border-radius: 1cm;
+            font-weight: bold ;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .container input[type="text"],input[type="Email"]
+        {
+            height: .8cm;
+            width: 8cm;
+            box-shadow: 0px 0px 10px none;
+            border: .1cm;
+            text-align: center;
+            border-radius: 2cm;
+            background-color:rgb(248, 205, 205);    
+        }
+        select{
+            height: .8cm;
+            width: 8cm;
+            box-shadow: 0px 0px 10px none;
+            border: .1cm;
+            border-radius: 2cm;
+            background-color:rgb(255, 196, 196); 
+        }
+input[type="submit"]{   
+color: rgb(252, 250, 250);
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    height: 1cm;
+    width: 2.5cm;
+    border: 0.1cm;
+    border-radius: 200px;
+    background-color: rgb(13, 0, 0);
+}
+input[type="radio"]
+{
+    height: .5cm;
+    width: 1cm;
+}
+    </style>
+</head>
+<body>
+ <div class="container">
+    <form action="lastpage.html"><br>
+    FirstName: <input type="text"><br>
+    <br>
+    LastName: <input type="text"><br><br>
+    Email: <br><input type="Email"><br><br>
+    Gender:<input type="radio" name="Mygender" value="male">Male
+    <input type="radio" name="Mygender" value="female">Female
+<br>
+<br>
+<label for="Profession">Profession:</label>
+<select name="Profession" id="Profession">
+    <option value="Select none">-Select None-</option>
+    <option value="Teacher">Teacher</option>
+    <option value="Professor">Professor</option>
+    <option value="Student">Student</option>
+    <option value="Doctor">Doctor</option>
+    <option value="Engineer">Engineer</option>
+    <option value="Scientist">Scientist</option>
+    <option value="Lawyer">Lawyer</option>
+</select>
+<br><br>
+<input type="submit">
+</form>
+</div>
+</body>
+</html>
